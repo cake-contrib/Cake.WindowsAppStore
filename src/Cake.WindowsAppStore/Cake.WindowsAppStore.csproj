@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <VersionPrefix>0.1.0</VersionPrefix>
     <TargetFrameworks>net46;netstandard2.0</TargetFrameworks>
@@ -10,7 +10,7 @@
     <Copyright>Copyright 2017 - 2018 (c) Geert van Horrik and contributors</Copyright>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.WindowsAppStore</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/cake-contrib/Cake.WindowsAppStore/develop/Cake.WindowsAppStore.png</PackageIconUrl>
+    <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.WindowsAppStore</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Cake Script Build Microsoft Windows Store Deployment</PackageTags>
