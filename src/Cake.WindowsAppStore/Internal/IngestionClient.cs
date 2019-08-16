@@ -15,7 +15,7 @@
     /// <summary>
     /// This class is a proxy that abstracts the functionality of the API service
     /// </summary>
-    public class IngestionClient : IDisposable
+    internal class IngestionClient : IDisposable
     {
         public static readonly string Version = "1.0";
         public static readonly string Tenant = "my";
@@ -117,7 +117,7 @@
             string clientSecret,
             string scope = null)
         {
-            if (scope == null)
+            if (scope is null)
             {
                 scope = "https://manage.devcenter.microsoft.com";
             }

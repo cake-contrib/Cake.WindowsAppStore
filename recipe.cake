@@ -1,4 +1,4 @@
-#load nuget:https://www.myget.org/F/cake-contrib/api/v2?package=Cake.Recipe&prerelease
+#load nuget:?package=Cake.Recipe&version=1.0.0
 
 Environment.SetVariableNames();
 
@@ -10,8 +10,9 @@ BuildParameters.SetParameters(context: Context,
                             repositoryName: "Cake.WindowsAppStore",
                             appVeyorAccountName: "cakecontrib",
                             shouldRunDotNetCorePack: true,
-                            shouldRunDupFinder: false);
- 
+                            shouldRunDupFinder: false,
+                            shouldRunGitVersion: true);
+
 BuildParameters.PrintParameters(Context);
 
 ToolSettings.SetToolSettings(context: Context,
